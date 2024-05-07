@@ -14,6 +14,7 @@
   align-items: center;
   position: sticky;
   top: 0;
+  background-color: white;
 }
 .navbar .logo h2 {
   padding: 20px;
@@ -660,7 +661,8 @@ footer .footer {
     display: block;
     position: absolute;
     top: 70px;
-    background-color: rgba(248, 246, 246, 0.4);
+    left: 0;
+    background-color:white;
     width: 100%;
     text-align: center;
     display: none;
@@ -817,7 +819,9 @@ footer .footer {
 }
 
 @media screen and (max-width: 420px) {
- 
+ .navbar{
+  width: 100%;
+ }
   .product-sale {
     display: grid;
     grid-template-columns: auto;
