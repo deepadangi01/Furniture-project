@@ -639,8 +639,8 @@ footer .footer {
 
 @media screen and (max-width: 780px) {
   .navbar {
-    justify-content: space-evenly;
-    max-width: 100%;
+    justify-content: space-between;
+    width: 100%;
     padding:10px;
     
   }
